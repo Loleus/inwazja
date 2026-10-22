@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Tło strony (html/body) jest czarne. */
+html,
+body {
+  background: #000000;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* Canvas gry wyśrodkowany w oknie; skala liczona przez Phaser (FIT). */
+#game-root canvas {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+#game-root canvas:focus,
+#game-root canvas:focus-visible {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
