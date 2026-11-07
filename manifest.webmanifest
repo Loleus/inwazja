@@ -1,7 +1,7 @@
 {
-  "name": "INWAZJA — tower defense",
+  "name": "- INWAZJA -",
   "short_name": "INWAZJA",
-  "description": "INWAZJA — gra tower defense. Broń bazy przez 50 fal na trzech drogach ataku.",
+  "description": "INWAZJA (obrona bazy). Broń bazy przez 50 fal na trzech drogach ataku.",
   "lang": "pl",
   "start_url": "./",
   "scope": "./",
